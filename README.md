@@ -27,7 +27,7 @@ The **YouTube Video Summarizer** is a web-based application that generates conci
 ## Requirements
 - Python 3.10
   
-- Gemini Pro model api key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)
+- Gemini Pro model api key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API).
   
 - Obtain API credentials from the makersuit platform.
 
