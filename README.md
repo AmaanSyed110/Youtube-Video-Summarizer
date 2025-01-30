@@ -8,22 +8,32 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 [streamlit-app-2024-09-01-17-09-54.webm](https://github.com/user-attachments/assets/88b5b1ce-1c80-4bea-8555-18599c22521b)
 
 ## Tech Stack
-- **Python**: The core programming language used for developing backend logic and integrating with AI models.
+- **Python**: For developing backend logic and integrating with AI models.
 
-- **Streamlit**: Framework for creating the interactive web interface where users can input YouTube links and view video summaries.
+- **Streamlit**: For building the web application.
   
-- **Gemini Pro LLM**: The language model employed for analyzing video content and generating summaries.
+- **OpenAI GPT Model**: For generating summaries and answering questions using ```gpt-4o```.
   
-- **Langchain**: A framework that facilitates interaction with Gemini Pro LLM, optimizing language model performance and integrating additional tools as needed.
+- **Langchain**: For managing interactions with the OpenAI API and handling text chunking.
+
+- **YouTube Transcript API**: For extracting video transcripts.
+
+- **Python-dotenv**: For managing environment variables.
   
 ## Features
-- **YouTube Link Input**: Allows users to enter a YouTube video URL to initiate the summarization process.
+- **Transcript Extraction**: Automatically fetches the transcript of a YouTube video.
   
-- **Automated Content Analysis**: Utilizes Gemini Pro LLM to analyze video content and generate a concise summary.
+- **AI-Powered Summarization**: Uses OpenAI's GPT models to generate a summary of the video.
   
-- **Interactive Interface**: Built with Streamlit, providing a user-friendly platform for entering links and viewing summaries.
+- **Question Answering**: Allows users to ask questions about the video content and get answers based on the transcript.
   
-- **Real-Time Summarization**: Processes videos and delivers summaries quickly, enhancing user efficiency and experience.
+- **Chunking for Long Transcripts**: Splits long transcripts into smaller chunks for efficient summarization.
+
+- **User Customization**: Provides options to adjust chunk size and overlap for summarization.
+
+- **Caching**: Caches transcript data to avoid redundant API calls.
+
+- **Error Handling**: Gracefully handles errors like invalid links or missing transcripts.
   
 ## Requirements
 - Python 3.10
