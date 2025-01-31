@@ -41,7 +41,7 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 Open a terminal and run the following command to clone the repository:
 
 ```
-git clone https://github.com/AmaanSyed110/MultiPDF-RAG.git
+git clone https://github.com/AmaanSyed110/Youtube-Video-Summarizer.git
 ```
 - ### Set Up a Virtual Environment
 It is recommended to use a virtual environment for managing dependencies:
@@ -51,4 +51,18 @@ python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 ```
-
+- ### Install Dependencies
+Install the required packages listed in the ```requirements.txt``` file
+```
+pip install -r requirements.txt
+```
+- ### Add Your OpenAI API Key
+Create a ```.env``` file in the project directory and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+- ### Run the Application
+Launch the Streamlit app by running the following command:
+```
+streamlit run app.py
+```
