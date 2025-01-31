@@ -7,19 +7,6 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 ## Demo Video
 [streamlit-app-2024-09-01-17-09-54.webm](https://github.com/user-attachments/assets/88b5b1ce-1c80-4bea-8555-18599c22521b)
 
-## Tech Stack
-- **Python**: For developing backend logic and integrating with AI models.
-
-- **Streamlit**: For building the web application.
-  
-- **OpenAI GPT Model**: For generating summaries and answering questions using ```gpt-4o```.
-  
-- **Langchain**: For managing interactions with the OpenAI API and handling text chunking.
-
-- **YouTube Transcript API**: For extracting video transcripts.
-
-- **Python-dotenv**: For managing environment variables.
-  
 ## Features
 - **Transcript Extraction**: Automatically fetches the transcript of a YouTube video.
   
@@ -34,17 +21,34 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 - **Caching**: Caches transcript data to avoid redundant API calls.
 
 - **Error Handling**: Gracefully handles errors like invalid links or missing transcripts.
-  
-## Requirements
-- Python 3.10
-  
-- Gemini Pro model api key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API).
-  
-- Obtain API credentials from the makersuit platform.
 
-- Create a file named .env in the project root directory.
+## Tech Stack
+- **Python**: For developing backend logic and integrating with AI models.
 
-- Add the following lines to .env:
-  ```bash
-   GOOGLE_API_KEY= "your_api_key"
-   ```
+- **Streamlit**: For building the web application.
+  
+- **OpenAI GPT Model**: For generating summaries and answering questions using ```gpt-4o```.
+  
+- **Langchain**: For managing interactions with the OpenAI API and handling text chunking.
+
+- **YouTube Transcript API**: For extracting video transcripts.
+
+- **Python-dotenv**: For managing environment variables.
+  
+  
+## Steps to Run the **Youtube Video Summarizer** on Your Local Machine:
+- ### Clone the Repository
+Open a terminal and run the following command to clone the repository:
+
+```
+git clone https://github.com/AmaanSyed110/MultiPDF-RAG.git
+```
+- ### Set Up a Virtual Environment
+It is recommended to use a virtual environment for managing dependencies:
+
+```
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+```
+
