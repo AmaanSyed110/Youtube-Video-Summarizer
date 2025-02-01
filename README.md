@@ -5,7 +5,8 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 
 
 ## Demo Video
-[streamlit-app-2024-09-01-17-09-54.webm](https://github.com/user-attachments/assets/88b5b1ce-1c80-4bea-8555-18599c22521b)
+[YouTube Video Summarizer.webm](https://github.com/user-attachments/assets/65366933-1cd6-4821-81b2-42fa811a43bd)
+
 
 ## Features
 - **Transcript Extraction**: Automatically fetches the transcript of a YouTube video.
