@@ -3,6 +3,9 @@
 ## Overview
 The **YouTube Video Summarizer** is a Streamlit-based web application that allows users to input a YouTube video link and get a detailed summary of the video's transcript. The app uses OpenAI's GPT models (via LangChain) to generate concise and meaningful summaries. It also includes a **Key Takeaways** section, providing a bullet-point list of the most important points from the video.
 
+## Flow of the Project
+![Youtube Video Summarizer Architecture](https://github.com/user-attachments/assets/9d4109f2-0479-4fb9-a202-838ad8862cc2)
+
 
 ## Demo Video
 [YouTube Video Summarizer.webm](https://github.com/user-attachments/assets/65366933-1cd6-4821-81b2-42fa811a43bd)
