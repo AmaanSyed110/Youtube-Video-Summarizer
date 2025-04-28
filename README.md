@@ -8,7 +8,7 @@ The **YouTube Video Summarizer** is a Streamlit-based web application that allow
 
 
 ## Demo Video
-[YouTube Video Summarizer.webm](https://github.com/user-attachments/assets/65366933-1cd6-4821-81b2-42fa811a43bd)
+[Final_YoutubeVideoSummarizer.webm](https://github.com/user-attachments/assets/7cd3654d-826b-4e61-b5f2-be64fff99d38)
 
 
 ## Features
